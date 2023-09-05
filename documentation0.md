@@ -35,6 +35,9 @@ Do remember, though, that SSH is connected to your GitHub account (not to specif
     Ongoing Use:
         From then on, every time I made changes to my files within the Git folder, I simply added them, committed them, and pushed them to GitHub. Git and GitHub were now powerful tools enhancing my IT work.
 
+    A good idea:
+	Why not add a passphrase to your Private SSH hey? This will add an extra layer of protection to your repositories. You can do that with ssh-keygen -p -f ~/.ssh/id_rsa (don't forget to add the SSH key with the passphrase to the SSH agent with ssh-add ~/.ssh/id_rsa). You'll be prompted for the passphrase at the start of your session, and won't probably be asked for it during that same session.
+ 
 Adding Another Computer:
 
     When introducing a new computer to this setup, I followed these steps:
