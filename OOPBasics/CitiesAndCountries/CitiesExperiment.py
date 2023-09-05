@@ -17,7 +17,8 @@ class Country:
                 self.cities.append(city)  # Only add to the country's cities list if it has a specific country
                 city.country.cities.append(city)
         else:
-            print(f"The city of {city} is already part of the great nation of {self.name}!")
+            print("Placeholder")
+
 
 
     def removeCity(self, city):
@@ -25,11 +26,11 @@ class Country:
             self.cities.remove(city)
             city.country = None  # Remove the city's association with the country
         else:
-            print(f"The great nation of {name} has no such city as {city}!")
+            print("There is no such city!")
 
     def describe(self):
         print(f"The Nation of {self.name} occupies {self.size} square meters, has a population of {self.population}"
-              f" and a standing army of {self.militarySize}.")
+              f" and a standing army of {self.military_size}.")
 
 
 class City:
@@ -63,7 +64,7 @@ class City:
     def describe(self):
         capital_text = " is a Capital city." if self.is_capital else ""
         country_text = f" in the independent city of {self.name}" if self.country is None else f" "
-        f"in the country of {self.country.name}"
+        f"in the country of {self.Country.name}"
         description = (
             f"The City of {self.name} occupies {self.size} square meters,"
             f" has a population of {self.population} and a standing army of {self.military_size}."
