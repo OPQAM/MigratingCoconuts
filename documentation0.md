@@ -23,13 +23,14 @@ Steps:
         Next, I added the SSH key to the SSH-agent using the commands eval "$(ssh-agent -s)" (which returned the agent PID) and ssh-add ~/.ssh/id_rsa (where I re-entered the password).
 
     Add SSH Key to GitHub Account:
-        To complete the setup, I copied the SSH key to my GitHub account. I navigated to 'Profile Pic' in the upper right corner > 'Settings' > 'SSH and GPG keys' > 'New SSH Key'. I gave it a memorable name and pasted the key (previously copied with pbcopy < ~/.ssh/id_rsa.pub).
+        To complete the setup, I copied the SSH key to my GitHub account. I navigated to 'Profile Pic' in the upper right corner > 'Settings' > 'SSH and GPG keys' > 'New SSH Key'. I gave it a memorable name and pasted the key (previously copied with cat ~/.ssh/id_rsa.pub | xsel --clipboard. You can use pbcopy < ~/.ssh/id_rsa.pub, if you are on a mac, or type C:\Users\MyUsername\.ssh\id_rsa.pub | clip, if working on a windows computer).
 
     Ready to Work with Git:
         With these steps done, I was ready to start working with Git. Commands like git add ., git commit -m "commit message", git push origin master, and git pull origin master became my allies. I could also check the status of my files with git status.
 
     Why SSH?
         I opted for SSH over tokens because it proved to be more convenient. With SSH, I only needed a private key for each machine and a single public key. This simplicity and the added benefit of mastering SSH made it a clear choice.
+Do remember, though, that SSH is connected to your GitHub account (not to specific repositories).
 
     Ongoing Use:
         From then on, every time I made changes to my files within the Git folder, I simply added them, committed them, and pushed them to GitHub. Git and GitHub were now powerful tools enhancing my IT work.
