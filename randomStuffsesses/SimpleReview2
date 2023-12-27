@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+inputstring = input("Give us a set of numbers, separated by commas. Thanks.\n")
+
+cleanedinput = inputstring.replace(" ", "") # erase empty spaces
+lista = cleanedinput.split(",")             # removing the commas and making that the separator
+tupleR = tuple(lista)                       # tuple function
+print(lista)
+print(tupleR)
