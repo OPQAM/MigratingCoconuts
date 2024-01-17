@@ -1,0 +1,46 @@
+#!/usr/bin/python3
+
+## Remembering Dicts          --- WIP ---
+
+#Unordered
+
+# Accessing inexistant keys = keyError
+
+birthdays = {'Ricardo': 'Aug 6', 'Peter': 'Mar 22', 'Hannah': 'Dec 30'}
+
+'''
+
+while True:
+    print("Enter a name: (blank to quit)")
+    name = input()
+    if name == '':
+        break
+
+    if name in birthdays:
+        print(f"{birthdays[name]} is the birthday of {name}")
+    else:
+        print(f"I do not have birthday information for {name}")
+        print(f"What is their birthday?")
+        bday = input()
+        birthdays[name] = bday
+        print(f"Birthday database updated.")
+'''
+
+for i in birthdays.items():
+    print(i)                            # The pair of keys + values = items
+
+for k in birthdays.keys():              # Only the keys
+    print(k)
+
+for v in birthdays.values():            # Only the values
+    print(v)    
+
+
+listaA = list(birthdays.keys())
+print(f" A List of keys:\n {listaA}")
+
+listaB = list(birthdays.values())
+print(f" A List of values:\n {listaB}")
+
+listaC = list(birthdays.items())
+print(f" A List of items:\n {listaC}")
