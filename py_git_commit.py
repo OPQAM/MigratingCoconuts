@@ -19,6 +19,6 @@ while True:
 goal = input(f"What was the aim of this {user_choice} change?\n")
 action = input(f"What has actually been done?\n")
 
-standard_commit = '''git commit -m "'{}': {}" -m "Objective: '{}'"'''.format(user_choice, action, goal)
+standard_commit = 'git commit -m "{}: {}" -m "Objective: {}"'.format(user_choice, action, goal)
 
 subprocess.run(standard_commit, shell=True)
