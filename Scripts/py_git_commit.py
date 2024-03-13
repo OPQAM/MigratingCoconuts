@@ -1,15 +1,13 @@
 #!/usr/bin/python3
 
-# Re-adding this file on github. For some reason, it got deleted. Need to figure out why
-
 import subprocess
 
-print('Standardized commit message (substituting commit -m "message_here")\n')
+print('''\n We're using a standardized version of the commit command (commit -m "message_here")\n''')
 
 issue = {'f': 'Feature', 'd': 'Doc', 'b': 'Style', 't': 'Test'}
 
 while True:
-    choice = input(f"Is this commit a new Feature(f), Documentation(d), Beautification or Style(b), or a Test(t)?")
+    choice = input(f"Is this related to a Feature(f), a Document(d), a Style or Beautification(b) change, or a Test(t)?")
     if choice in issue:
         user_choice = issue[choice]
         break
