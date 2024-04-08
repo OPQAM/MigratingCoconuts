@@ -9,3 +9,18 @@ pynative.com/python-basic-exercise-for-beginners/
 
 --snip--
 
+Let's add some information on the enumerate() function, which I haven't seen in a while.
+
+This function will iterate over a sequence (such as a list) while keeping track of the index of each item - pretty useful.
+
+It's, in fact, returning pairs of index+item tuples.
+
+We can see this in the line:
+
+for i, char in enumerate(first_list): 
+
+The tuple is the (i, char) pair, ofc.
+
+Move along. Nothing to see here.
+
+--snip--
