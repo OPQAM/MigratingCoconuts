@@ -4,15 +4,15 @@ print(f"The Amazing Even Index String Printer (tm)!\n")
 
 the_string = input("Please enter your amazing string:\n")
 
-first_list = []
 
-for element in the_string:
-    first_list.append(element)
+# Let's use list comprehension. Long time no use.
 
-counter = len(the_string)
 
-for i in range(counter):
+first_list = [char for char in the_string]
+
+
+for i, char in enumerate(first_list):
     if i % 2 == 0:
-        print(first_list[i])
+        print(char)
 
 
