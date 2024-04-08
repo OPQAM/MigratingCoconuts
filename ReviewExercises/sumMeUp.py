@@ -4,12 +4,7 @@
 # Another catching up exercise. Mostly to reming myself of how functions work in py
 
 def add_my_nums(x):
-    try:
-        counter = int(x)
-    except ValueError:
-        print("Error: Please enter a valid integer.")
-        return None
-
+    counter = x
     final_value = 0
     while counter != 0:
         final_value += counter
@@ -19,9 +14,17 @@ def add_my_nums(x):
 
 
 
+while True:
+    da_number = input("What number would you like to use?\n")
+    try:
+        da_number = int(da_number)
+        if da_number >= 0:
+            break
+        else:
+            print("Please enter a non-negative integer.")
+    except ValueError:
+        print("Error: Please enter a valid integer.")
 
-da_number = input("What number would you like to use?\n")
 result = add_my_nums(da_number)
-if result is not None:
-    print(f"the sum of numbers up to {da_number} is:", result)
+print(f"\nThe sum of numbers up to {da_number} is {result}.")
 
