@@ -3,9 +3,9 @@
 # The idea is to find a certain word within a sentence (number of times).
 # This way I can check once again how to open files, read them, etc.
 
-print("Welcome to the WordFinder. We'll open a text and fint the number of times a certain word appears.")
+print("\nWelcome to the WordFinder.\nWe'll open a text and find the number of times a certain word appears.")
 
-fileName = input("Please enter the (complete) file name: ")
+fileName = input("\nPlease enter the (complete) file name: ")
 
 readableFile = open(fileName, "r")
 counter = 0
@@ -22,4 +22,4 @@ for line in readableFile:
             counter += 1
 
 readableFile.close()
-print(f"Number of times {userVal} appears inside {fileName}: {counter}.\nBye!")
+print(f"\nNumber of times '{userVal}' appears inside {fileName}: {counter}.\n\nBye!")
