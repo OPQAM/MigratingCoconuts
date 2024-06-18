@@ -21,6 +21,8 @@ cat_method = cat_request.method
 
 cat_request_headers = cat_request.headers
 
+# Checking the status of a response ('OK' and 'Not Found')
+cat_reason = cat_response.reason
 
 # Check https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages for more information on these APIs
 
@@ -31,6 +33,6 @@ print(f"Headers: {cat_headers}\n")
 print(f"Response Request: {cat_request}\n")
 print(f"Request URL: {cat_url}\n")
 print(f"Request Path URL: {cat_url_path}\n")
-print(f"request Method: {cat_method}\n")
+print(f"Request Method: {cat_method}\n")
 print(f"Request Headers: {cat_request_headers}\n")
-
+print(f"Response Reason: {cat_reason}")
