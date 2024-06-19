@@ -17,3 +17,12 @@ print(response.request.headers)
 
 
 # Custom headers
+
+# sometimes will have 'x-', but not always.
+# We can use dicts to define headers and send them with .get()
+
+headers = {"X-Request-Id": "<my-request-id>"}
+resposta = requests.get("https://example.org", headers = headers)
+print(resposta.request.headers)
+
+
