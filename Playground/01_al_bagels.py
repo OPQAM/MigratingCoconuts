@@ -1,22 +1,26 @@
 #!/usr/bin/env python3
 
 import random
+import re # this to add some letters (see below)
 num_digits = 3
 max_guesses = 10
 
+# TPC: created a version with letters as well as numbers
+
 def main():
     print(f'''Bagels, a deductive logic game.
- 16. By Al Sweigart al@inventwithpython.com
- 17. 
- 18. I am thinking of a {num_digits}-digit number with no repeated digits.
- 19. Try to guess what it is. Here are some clues:
- 20. When I say:    That means:
- 21.   Pico         One digit is correct but in the wrong position.
- 22.   Fermi        One digit is correct and in the right position.
- 23.   Bagels       No digit is correct.
- 24. 
- 25. For example, if the secret number was 248 and your guess was 843, the
- 26. clues would be Fermi Pico.''')
+ By Al Sweigart al@inventwithpython.com
+ 
+ I am thinking of a {num_digits}-digit number with no repeated digits.
+Try to guess what it is. Here are some clues:
+When I say:    That means:
+   Pico         One digit is correct but in the wrong position.
+   Fermi        One digit is correct and in the right position.
+   Bagels       No digit is correct.
+
+Note that we're also allowing for the characters' a', 'b' and' c'.
+ For example, if the secret number was b48 and your guess was c43, the
+ clues would be Fermi Pico.''')
     
     while True:
         # Storing the secret number that we need to guess
@@ -28,7 +32,9 @@ def main():
         while numGuesses <= max_guesses:
             guess = ''
             # Looping until a valid guess is entered
-            while len(guess) != num_digits or not guess.isdecimal():
+            while len(guess) != num_digits or not re.match("^[a-c0-9]{3}$", guess): # abc allowed
+            # Note that we're allowing for a, b and c. Nothing else on those 3 positions
+                # or not guess.isdecimal(): REMOVED - to allow letters
                 print(f"Guess #{numGuesses}")
                 guess = input("> ")
             
@@ -48,7 +54,7 @@ def main():
     print("Thanks for playing!")
 
 def getSecretNum():
-    numbers = list("0123456789")
+    numbers = list("0123456789abc")
     random.shuffle(numbers)
 
     # Getting the first num_digits in the list for the secret number
