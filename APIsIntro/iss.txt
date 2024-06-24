@@ -9,3 +9,5 @@ Jeanette Epps - on board
 Alexander Grebenkin - on board
 Butch Wilmore - on board
 Sunita Williams - on board
+
+Your current lat / long is: [38.7167, -9.1333]
