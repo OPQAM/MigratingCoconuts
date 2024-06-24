@@ -17,8 +17,5 @@ It might be more interesting to have the actualy action decribed first, and the 
 
 --snip--
 
-Adding here stuff from The Big Book of Small Python Projects, to get some practice back in my system, and hopefully give me some ideas on stuff to do.
-
---snip--
 
 
