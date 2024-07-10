@@ -77,10 +77,8 @@ try:
         iss.goto(lon, lat)
 
         # Refresh every 5 seconds
-        time.sleep(5)
+        time.sleep(10)
 
 except requests.exceptions.RequestException as e:
     print(f"Error fetching data: {e}")
-    time.sleep(5)
-
 
