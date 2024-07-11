@@ -1,50 +1,60 @@
 #!/usr/bin/env python3
 
-''' I'm starting afresh my maze game project
-    The idea is to have a system that creates mazes
-    and another one that lets the user traverse those locations
-    Then I might want to add perhaps an AI generative element
-    to the maze creation, game elements, etc.
-'''
 import random
 
-# Rules for creation:
-# - if diagonal has empty space, this must be filled (or we're in a room - rooms later)
-# - rooms are created beforehand in separate function.
-# - maze adds rooms (x for a n times m maze), then the corridors get added
-# - If two big enough rooms in straight line we can have double corridors
-# - rather have a dungeon than a maze (maze-ey dungeon)
-# - if big enough map, small change entry point or exit point is double door
-# - when rooms added, move on to create hallways
-# - on rooms. How much room a romm does take? Conside this in calculations.
+def outer_maze_creator(maze, maze_width, maze_length):
 
-def create_maze(maze):
-    width = random.randint(10,30)
-    length = random.randint(10,30)
-    print(f"Test: Length is {length}; width is {width}")
+    # Adding empty spaces to the maze list:
+    for row in range(maze_length):
+        maze.append([])
+        for col in range(maze_width):
+            maze[row].append(" ")
 
-    # Initialize the maze with blocks
-    for i in range(length):
-        row = ["■"] * width
-        maze.append(row)
+    #filling the outside with walls
+    for row in range(maze_length):
+        for col in range(maze_width):
+            if row == 0 or col == 0 or row == maze_length - 1 or col == maze_width - 1:
+                maze[row][col] = "▓"
 
-    # DEBUG: see maze
-    for row in maze:
-        print("".join(row))
+    # Temp: Let's see it
+    for row in range(maze_length):
+        for col in range(maze_width):
+            print(maze[row][col], end="")
+        # newline after each row
+        print()
 
-    return maze 
+    return maze
 
-def create_room
+'''This is for later:
+║ ═ ╔ ╗ ╚ ╝╠ ╣ ╦ ╩ ╬ '''
 
+def room_creator():
+    max_room_width = 8
+    min_room_width = 2
+    max_room_length = 8
+    min_room_length = 2
 
-# def player_movement():
+    room_width = random.randint(min_room_width, max_room_width)
+    room_length = random.randint(min_room_length, max_room_length)
 
+    return room_width, room_length
 
+def add_rooms_to_maze(the_maze, number_of_rooms):
+
+    return the_maze
 
 def main():
+    maze_width = 26
+    maze_length = 26
+    min_rooms = 4
+    max_rooms = 10
+    number_of_rooms = random.randint(min_rooms, max_rooms)
+    the_maze = []
+
+    outer_maze_creator(the_maze, maze_width, maze_length)
+    add_rooms_to_maze(the_maze, number_of_rooms)
     
-    maze = []
-    create_maze(maze)
+    return 0
 
 
 if __name__ == "__main__":
