@@ -2,17 +2,22 @@
   <img src="Images/cover.jpg" alt="My Project Banner" width="50%">
 </div>
 
-# General Notes for the One-Hundred Day Suite
+# 100 Days of Code: Creating the LazySuite 
 
-## Overview
+## What's This About?
 
-This project is a 100-day journey to develop Python tools that assist in my Reverse Engineering (RE) studies. The goal is to combine Python practice with RE workflows, resulting in a suite of useful scripts while documenting my daily progress.
+The LazySuite is a personal project where I commit to building a set of Python tools designed to assist in my Reverse Engineering (RE) studies. Over the next 100 days, I will focus on creating, refining, and documenting these tools while also improving my Python programming skills. This project serves as both a learning opportunity and a portfolio to showcase my progress in Python, automation, and low-level programming.
 
-### Key Objectives
-- **Learn by Doing**: Use this project as a hands-on way to strengthen Python fundamentals and explore automation.
-- **Develop Practical Tools**: Build a set of scripts to streamline common RE tasks, such as binary analysis and debugging.
-- **Document Progress**: Journal daily to track learning and challenges, culminating in a detailed public portfolio.
-- **Personal Goals**: Celebrate milestones and incorporate Japanese learning as part of the journey.
+### Objectives
+- **Python Practice**: Strengthen my Python funcamentals by applying them to practical, tool-oriented programming.
+- **RE Tools**: Develop tools that are relevant to RE tasks, aiming to simplify and automate common workflows.
+- **Portfolio Development**: Build a repository of scripts and tools that demonstrate my skills and thought processes.
+- **Public Sharing**: Share daily updates on social media (Twitter, LinkedIn, Mastodon) and weekly blog posts to document progress and insights.
+
+---
+
+## Why LazySuite?
+The LazySuite is named after my philosophy of automating tedious, repetitive tasks. The goal is to create a collection of lightweight, effective scripts that aid RE efforts, even for a beginner. It’s about working smarter, not harder.
 
 ---
 
@@ -40,18 +45,27 @@ done
 
 ## Planned Tools
 
-#### This set of tools isn't set in stone. It's an idea and a WIP.
+#### Here are some of the tools I plan to include in the LazySuite:
 
-1. Automated Symbol Extraction and Organization Tool: Parses ELF binaries to extract and organize symbols (e.g., function names, variables) into structured formats like JSON.
-2. File Header and Metadata Analyzer: Analyzes headers and metadata of binaries to identify file types, magic numbers, and protections.
-3. Automated GDB Scripting Assistant: Simplifies GDB workflows by automating common debugging tasks via Python scripts.
-4. Entropy Visualizer and Analyzer: Provides visual and numerical entropy analysis for binary files, aiding malware research.
-5. Patch Automation Tool (stretch goal): Automates small binary modifications, streamlining patching and testing workflows.
+1. Binary Analysis Helpers
+- Automate disassembly, symbol extraction, and binary comparisons.
+2. Debugger Integration
+- Scripts to streamline GDB workflows and set up hooks dynamically.
+3. File Analysis Utilities
+- Tools for inspecting file headers, entropy analysis, and metadata extraction.
+4. Documentation Generators
+- Automated report or markdown generation from analysis outputs.
 
 ---
 
 ## Get Involved
+Contributions are welcome! Whether it’s feedback, ideas, or code improvements, feel free to open an issue or submit a pull request. This project is beginner-friendly, so don’t hesitate to jump in.
 
+#### How to Use the LazySuite
+Each tool in the LazySuite will include detailed documentation on its usage, purpose, and installation requirements. Check the individual tool directories for more information.
+
+
+#### Sharing my progress on:
 -[Mastodon](https://mastodon.social/@opqam)
 
 -[Twitter](https://twitter.com/opqamNotSpace)
