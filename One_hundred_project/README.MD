@@ -1,4 +1,6 @@
-<img src="Images/cover.jpg" alt="My Project Banner" width="50%">
+<div align="center">
+  <img src="Images/cover.jpg" alt="My Project Banner" width="50%">
+</div>
 
 # General Notes for the One-Hundred Day Suite
 
