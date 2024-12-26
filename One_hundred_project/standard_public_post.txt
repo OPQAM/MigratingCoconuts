@@ -1,0 +1,81 @@
+# LinkedIn
+
+🌳 Day 0: Kicking Off the LazySuite Project!
+
+Starting tomorrow, I’m embarking on a 100-day journey to create the LazySuite: a set of Python tools to help me in my Reverse Engineering (RE) path and improve my Python automation skills.
+
+
+
+This isn’t about building tools for professionals—it’s about experimenting with automation, and giving a fun twist to my RE hobby.
+
+
+
+What’s involved:
+
+📌 Python Practice: Writing simple scripts to automate repetitive RE tasks and deepen my understanding of the language 🐍 
+
+📌 C & ASM + RE Studies: Learning the low-level details through pwn.college, CTF challenges, and hacking away at binaries 📚 
+
+📌 Daily Progress Sharing: I’ll post daily updates, reflect on what I learn, and (hopefully) build momentum along the way ⏳ 
+
+📌 Japanese Tidbits: Adding a bit of language learning to keep things interesting 🎎 
+
+
+
+
+
+This is about progression, not perfection. The goal is to grow every day and document my journey—warts and all. If you’re into RE, Python, or just geeking out about learning, follow along.
+
+
+
+Check out the project here: https://github.com/OPQAM/MigratingCoconuts/tree/master/One_hundred_project
+
+
+
+Let me know if you’d like to collaborate, give feedback, or just follow along. 
+
+Here's to 100 days of growth and discovery!
+
+
+
+#100DaysOfCode #ReverseEngineering #Python #Assembly #C #LazySuite
+
+---
+
+# Mastodon
+
+🌳 Day 0: Kicking Off the LazySuite Project!
+
+Starting tomorrow, I’m embarking on a 100-day journey to create the LazySuite: a set of Python tools to help me in my Reverse Engineering (RE) path and improve my Python automation skills.
+
+What’s involved:
+
+Python Practice:  🐍 
+C & ASM + RE Studies:  📚 
+Daily Progress Sharing: ⏳ 
+Japanese Tidbits:  🎎 
+
+Check out the project here: https://github.com/OPQAM/MigratingCoconuts/tree/master/One_hundred_project
+
+#100DaysOfCode
+#ReverseEngineering
+#Python
+#Assembly
+#C
+#LazySuite
+
+---
+
+Twitter
+
+The LazySuite Project - Day 0
+
+100-day journey to create the LazySuite: a set of Python tools to help me in my Reverse Engineering (RE) path and improve my Python automation skills.
+
+Check out the project here: https://github.com/OPQAM/MigratingCoconuts/tree/master/One_hundred_project
+
+#100DaysOfCode #ReverseEngineering #Python
+
+---
+
+
