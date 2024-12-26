@@ -1,12 +1,12 @@
-# Readme for Day 072
+<div align="center">
+ <img src="../Images/image_072.jpg" alt="Day 072 Banner" width="50%">
+</div>
 
+# Readme for day 072
 
 ## Goals for Today
 
-
 ## Progress Update
 
-
 ### Japanese Tidbits
-
 

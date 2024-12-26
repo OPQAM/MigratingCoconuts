@@ -1,12 +1,12 @@
-# Readme for Day 001
+<div align="center">
+ <img src="../Images/image_001.jpg" alt="Day 001 Banner" width="50%">
+</div>
 
+# Readme for day 001
 
 ## Goals for Today
 
-
 ## Progress Update
 
-
 ### Japanese Tidbits
-
 
