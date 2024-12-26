@@ -1,8 +1,8 @@
 <div align="center">
- <img src="../Images/image_084.jpg" alt="Day 084 Banner" width="50%">
+ <img src="../..Images/image_084.jpg" alt="Day 084 Banner" width="50%">
 </div>
 
-# Readme for day 084
+# Readme for Day 084
 
 ## Goals for Today
 

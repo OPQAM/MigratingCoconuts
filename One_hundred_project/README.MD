@@ -30,7 +30,7 @@ for i in {001..100}; do
   mkdir -p Day_$i
   cat <<EOF > Day_$i/readme.md
 <div align="center">
-  <img src="../Images/image_$i.jpg" alt="Day $i Banner" width="50%">
+  <img src="../../Images/image_$i.jpg" alt="Day $i Banner" width="50%">
 </div>
 
 # Readme for Day $i
