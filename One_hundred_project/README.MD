@@ -51,8 +51,11 @@ done
 ## Get Involved
 
 -[Mastodon](https://mastodon.social/@opqam)
+
 -[Twitter](https://twitter.com/opqamNotSpace)
+
 -[LinkedIn](https://www.linkedin.com/in/ricardo-alves-opqam/)
+
 -[GitHub](https://github.com/OPQAM)
 
 ---
