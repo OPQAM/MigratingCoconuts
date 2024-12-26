@@ -1,4 +1,4 @@
-![My Project Banner](Images/cover.jpg)
+<img src="Images/cover.jpg" alt="My Project Banner" width="50%">
 
 # General Notes for the One-Hundred Day Suite
 
