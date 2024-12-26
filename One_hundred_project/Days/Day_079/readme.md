@@ -1,5 +1,5 @@
 <div align="center">
- <img src="../..Images/image_079.jpg" alt="Day 079 Banner" width="50%">
+ <img src="../../Images/image_079.jpg" alt="Day 079 Banner" width="50%">
 </div>
 
 # Readme for Day 079
