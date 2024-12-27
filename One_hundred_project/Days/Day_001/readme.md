@@ -17,23 +17,14 @@
 ### Japanese Tidbits
 
 (hiragana)
-あ - a
-
-い - i
-
-う - u
-
-え - e
-
-お - o
-
-か - ka
-
-き - ki   (the standalone kanji 木 actually means 'tree')
-
-く - ku
-
-け - ke
-
-こ - ko
+あ - a  
+い - i  
+う - u  
+え - e  
+お - o  
+か - ka  
+き - ki (the standalone kanji 木 actually means 'tree')  
+く - ku  
+け - ke  
+こ - ko  
 
