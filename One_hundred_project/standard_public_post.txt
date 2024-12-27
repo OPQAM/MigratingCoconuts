@@ -1,8 +1,9 @@
 # LinkedIn
 
-🌳 100 Days of Automation: Day XXX
+🌳 100 Days of Automation: Day 0xXX
 
-SHORT_HAPPENINGS_HERE
+[SHORT_HAPPENINGS_HERE]!
+
 🔗 GitHub Repo:
 LINK_TO_THIS_DAY
 
@@ -15,11 +16,14 @@ ONE_CHARACTER_ONLY
 
 # Mastodon
 
-🌳 100 Days of Automation: Day XXX
-Today I [SHORT_HAPPENINGS_HERE]!
+🌳 100 Days of Automation: Day 0xXX
+[SHORT_HAPPENINGS_HERE]!
 
-🔗 GitHub Repo: LINK_TO_THIS_DAY
-🍣 Nihongo Nugget: ONE_CHARACTER_ONLY
+🔗 GitHub Repo: 
+LINK_TO_THIS_DAY
+
+🍣 Nihongo Nugget: 
+ONE_CHARACTER_ONLY
 
 #100DaysOfCode #Python #Automation #ReverseEngineering
 
@@ -27,11 +31,14 @@ Today I [SHORT_HAPPENINGS_HERE]!
 
 Twitter
 
-🌳 100 Days of Automation: Day XXX
+🌳 100 Days of Automation: Day 0xXX
 [SHORT_HAPPENINGS_HERE]!
 
-🔗 GitHub Repo: LINK_TO_THIS_DAY
-🍣 Nihongo Nugget: ONE_CHARACTER_ONLY
+🔗 GitHub: 
+LINK_TO_THIS_DAY
+
+🍣 Nihongo: 
+ONE_CHARACTER_ONLY
 
 #100DaysOfCode #Python #Automation #ReverseEngineering
 
