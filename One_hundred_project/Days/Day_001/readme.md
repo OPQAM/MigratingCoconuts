@@ -16,7 +16,7 @@
 
 ### Japanese Tidbits
 
-(hiragana)
+(hiragana)  
 あ - a  
 い - i  
 う - u  
