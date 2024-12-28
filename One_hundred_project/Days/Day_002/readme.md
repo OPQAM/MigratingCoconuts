@@ -18,4 +18,4 @@
 
 ### Japanese Tidbits
 
-ひ hi (the standalone kanji 火 means 'fire')
+ひ - hi (the standalone kanji 火 means 'fire')
