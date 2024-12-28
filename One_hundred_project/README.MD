@@ -79,3 +79,7 @@ Each tool in the LazySuite will include detailed documentation on its usage, pur
 -[GitHub](https://github.com/OPQAM)
 
 ---
+
+Deactivating Virtual environment: deactivate
+source /home/opqam/Projects/Python/One_hundred_project/myenv/bin/activate
+
