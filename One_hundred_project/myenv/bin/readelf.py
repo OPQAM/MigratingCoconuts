@@ -1,4 +1,4 @@
-#!/home/opqam/Projects/Python/One_hundred_project/Days/Day_001/myenv/bin/python3
+#!/home/opqam/Projects/Python/One_hundred_project/myenv/bin/python3
 #-------------------------------------------------------------------------------
 # scripts/readelf.py
 #

@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+
 from elftools.elf.elffile import ELFFile
 
 with open('simple_elf', 'rb') as f:
