@@ -5,8 +5,10 @@
 # Readme for Day 004
 
 ## Goals for Today
+- improve and focus code for tool  
 
 ## Progress Update
+- Edited code and experimented with different outputs  
 
 ### Japanese Tidbits
-
+四 - shi (kanji) -> 'four'  
