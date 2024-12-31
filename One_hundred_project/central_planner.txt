@@ -1,0 +1,22 @@
+# Need to create a central point for the Suite.
+
+Basic Idea:
+
+LazySuite/
+├── tools/
+│   ├── pyelftool.py
+│   ├── other_tool.py
+│   └── __init__.py
+├── lazy_suite.py
+├── README.md
+└── requirements.txt
+
+TO-DO:
+- Define scope		OK
+- Design		OK
+- Modular structure	OK
+- CLI framework
+- Structure main()
+- Add features
+- Test and refine
+
