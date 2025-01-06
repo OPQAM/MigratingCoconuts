@@ -5,6 +5,7 @@ Basic Idea:
 LazySuite/
 ├── tools/
 │   ├── pyelftool.py
+│   ├── extract_strings.py
 │   ├── other_tool.py
 │   └── __init__.py
 ├── lazy_suite.py
@@ -15,8 +16,8 @@ TO-DO:
 - Define scope		OK
 - Design		OK
 - Modular structure	OK
-- CLI framework
-- Structure main()
+- CLI framework         PARTIAL
+- Structure main()      PARTIAL
 - Add features
 - Test and refine
 

@@ -1,4 +1,4 @@
-# LinkedIn
+# LinkedIn, Mastodon, Twitter, ...
 
 🌳 100 Days of Automation: Day 0xXX
 
@@ -11,37 +11,4 @@ LINK_TO_THIS_DAY
 ONE_CHARACTER_ONLY
 
 #100DaysOfCode #Python #Automation #ReverseEngineering
-
----
-
-# Mastodon
-
-🌳 100 Days of Automation: Day 0xXX
-[SHORT_HAPPENINGS_HERE]!
-
-🔗 GitHub Repo: 
-LINK_TO_THIS_DAY
-
-🍣 Nihongo Nugget: 
-ONE_CHARACTER_ONLY
-
-#100DaysOfCode #Python #Automation #ReverseEngineering
-
----
-
-Twitter
-
-🌳 100 Days of Automation: Day 0xXX
-[SHORT_HAPPENINGS_HERE]!
-
-🔗 GitHub: 
-LINK_TO_THIS_DAY
-
-🍣 Nihongo: 
-ONE_CHARACTER_ONLY
-
-#100DaysOfCode #Python #Automation #ReverseEngineering
-
----
-
 

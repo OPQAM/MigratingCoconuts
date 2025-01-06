@@ -4,9 +4,9 @@
 
 # Readme for Day 007
 
-## Goals for Today
-
 ## Progress Update
+- Research into how to create a string extractor and what kind of extractor to create.  
+- Good idea: not to just remake 'strings'
 
 ### Japanese Tidbits
-
+竜 (りゅう, ryū) - "dragon"
