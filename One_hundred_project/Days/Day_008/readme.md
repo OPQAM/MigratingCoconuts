@@ -4,9 +4,11 @@
 
 # Readme for Day 008
 
-## Goals for Today
-
 ## Progress Update
 
-### Japanese Tidbits
+- Added String Extractor rough sketch
+- Putting project on hold to focus on other themes
+- RE is fun. Malware is fun. ASM is fun. C is fun. Python is fun in short, controlled bursts
 
+### Japanese Tidbits
+リバースエンジニアリング (ribaasu enjinia-ringu) "reverse engineering"
